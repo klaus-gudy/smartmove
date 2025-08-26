@@ -37,6 +37,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
+    # Custom apps for property relocation
+    'clients',
+    'properties',
+    'relocations',
+    'logistics',
 ]
 
 MIDDLEWARE = [
